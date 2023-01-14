@@ -16,7 +16,7 @@ li {
 }
 
 html {
-  background-color: #F5AC7E;
+  background-color: #00539f;
 }
 
 body {
@@ -44,7 +44,7 @@ img {
   color: red;
 }
 
-.mainquote {
+#mainquote {
   color: red;
   border: 5px solid black;
 }
