@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="styles/style.css" rel="stylesheet" />
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
 </head>
+
+
 <body>
 	<h1>Mozilla is cool</h1>
 
-	<img src="../firefox.png" alt="The image shows the Firefox logo, which consists of a fox, whose tail turns into flames, surrounding the Earth." />
+	<img id="foxImage" src="../firefox.png" alt="The image shows the Firefox logo, which consists of a fox, whose tail turns into flames, surrounding the Earth." />
 
 
 	<p>At Mozilla, we're a global community of</p>
@@ -24,6 +30,34 @@
 	<p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
 
 	<p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis augue. In elementum magna at congue sagittis. Ut semper libero et ultrices tincidunt. Donec urna ex, aliquam eu nisi sit amet, finibus accumsan massa. Suspendisse non volutpat ante, id eleifend tortor. Etiam iaculis nibh turpis, sit amet placerat augue malesuada in. Donec purus quam, finibus sit amet placerat eu, venenatis eget nisi. Morbi a libero urna. Curabitur quis odio convallis, fermentum dolor a, iaculis ex. Mauris quis imperdiet eros. Praesent sit amet nisi quam. Praesent eget augue lobortis, tempus nisi condimentum, tincidunt libero.</p>
+
+<p id="mainquote" class="quote"> "Web development is cool" - Bill Joe Smith </p>
+
+	<p>Nulla facilisi. Phasellus sem lacus, cursus tempor turpis vitae, imperdiet sagittis lectus. Donec sagittis mauris a odio cursus vulputate. Sed blandit ac dolor nec posuere. Nulla eu posuere nunc. Donec lectus mi, viverra ac congue quis, aliquam vitae lacus. Sed convallis arcu quam, quis pretium nulla gravida non.</p>
+
+<p class="quote"> "Web development is cool" - Bill Joe Smith </p>
+
+	<p>Pellentesque varius diam eu maximus tempor. Sed consectetur mauris ac lobortis malesuada. Donec semper malesuada est, sed ultricies ex pulvinar placerat. Sed ultrices nulla at mi convallis condimentum. Fusce mollis magna lectus, sit amet commodo leo ultrices ornare. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque pellentesque sed mi sed sodales. Ut libero libero, semper sit amet laoreet quis, aliquam eu neque. In vestibulum lacinia ex quis pellentesque. In eget leo neque.</p>
+
+
+
+	<p>Praesent pulvinar lacinia tortor vitae vulputate. Phasellus nec nunc ipsum. Duis rhoncus dictum rutrum. Cras porttitor at justo sit amet rutrum. Nunc efficitur imperdiet hendrerit. Mauris vitae semper magna, nec ultricies felis. Proin molestie rutrum odio eget fringilla. Nullam consectetur ultrices libero, bibendum luctus odio interdum vel.</p>
+
+<p class="quote"> "JavaScript is the language of web browsers" - John Doe</p>	
+
+	<p>Aliquam pretium nisi at ex dignissim interdum. Nunc semper lacinia eleifend. Sed eget congue mi, sed laoreet velit. Fusce erat magna, maximus et cursus eget, mollis et nunc. Mauris sagittis ante in nulla facilisis maximus. Ut tempus interdum egestas. Curabitur ac vulputate sem, consectetur tempor ante. Etiam placerat nunc lorem, non pretium dui fermentum sit amet. Curabitur condimentum erat vel urna tincidunt efficitur.</p>
+
+
+<button id="Hide">Hide fox image</button> 
+
+<button id="Show">Show fox image</button>
+
+<div class="image" id="firefox"></div>
+
+<script src="scripts/main.js"></script>
+
 
 
 </body>
